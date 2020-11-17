@@ -32,6 +32,13 @@ analytics purposes.
 ![Alt text](images/design2.png?raw=true "Title")
 
 
+### Limitations:
+1. It is difficult to differentiate between error logs during log processing and filtering. 
+There needs to be a better backend logging system that assigns unique codes to each error.
+
+2. It is costly to run EC2 instances for real-time data processing compared with scheduled 
+Lambdas which tend to be a cheaper solution for data that does not require frequent access.
+
 ### Future Improvements:
 1. Enhance log processing through better info/error logs.
 2. Monitor the health of Docker containers and Kubernetes pods.
