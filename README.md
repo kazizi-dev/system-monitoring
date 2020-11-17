@@ -20,7 +20,7 @@ instance on AWS cloud to instantly extract new Cloudwatch Logs, transform them a
 load them to Elastic cloud for analytics purposes.
 
 
-![Alt text](images/design1.PNG?raw=true "Title")
+![Alt text](images/design1.png?raw=true "Title")
 
 
 ### Design 2:
@@ -29,7 +29,7 @@ cloud where the data can be transformed, used for automated alerts/tickets, and 
 analytics purposes.
 
 
-![Alt text](images/design2.PNG?raw=true "Title")
+![Alt text](images/design2.png?raw=true "Title")
 
 
 ### Future Improvements:
