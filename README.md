@@ -5,9 +5,9 @@ System monitoring design with the help of Elastic ELK stack, AWS, and Docker.
 1. Design a real-time and scheduled data processign solution that can monitor logs
 and other forms of data coming from AWS and Balena cloud systems.
 
-2. Build a system that can alert the team about problems and anomalies on services
-such as Slack, so issues can be investigated faster. Also, create an automated 
-ticket for every severe problem and assign it to the right person in the team.  
+2. Build a system that can alert the team about problems and anomalies on Slack and Email.
+
+3. Create an automated ticketing system on Jira.
 
 ### Motivation:
 Build a system that can answer business and technical related questions for 
@@ -42,4 +42,3 @@ Lambdas which tend to be a cheaper solution for data that does not require frequ
 ### Future Improvements:
 1. Enhance log processing through better info/error logs.
 2. Monitor the health of Docker containers and Kubernetes pods.
-3. Automate Index Lifecycle Management (ILM) policies for Elastic cloud.
