@@ -12,18 +12,27 @@ engineering and customer support teams in order to better assist clients.
 
 ### Design 1:
 1. Install a Logstash image in a docker container and run the container using an EC2
-instance on AWS cloud to continously extract newly created Cloudwatch Logs, transform them and 
-load them to Elastic cloud for analytics purposes.
+instance on AWS cloud to continously extract newly created Cloudwatch Logs.
+
+2. Transform these logs and load them to Elastic cloud for monitoring purposes.
 
 ![Alt text](images/design1.png?raw=true "Title")
 
 
 ### Design 2:
-1. Use AWS Lambda to extract data from different sources such as AWS and Balena
-clouds where data is transformed and aggregated for monitoring and alerting purposes.
+1. Use AWS Lambda to extract data from different sources such as AWS and Balena clouds.
+2. Transform and aggregate data for monitoring and alerting purposes.
 
 ![Alt text](images/design2.png?raw=true "Title")
 
+
+### Design 3:
+1 Extra web app metrics by using Elastic Application Performance Monitoring (APM). 
+Use the metrics to monitor user clicks, amd API latencies.
+
+2. Extract Docker metrics by using Elastic Metricbeat.
+
+![Alt text](images/design3.png?raw=true "Title")
 
 ### Lessons Learned :
 1. It is difficult to differentiate between error logs during log processing and filtering. 
