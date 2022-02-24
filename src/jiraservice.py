@@ -8,7 +8,7 @@ class JiraService():
     
     def __init__(self):
         self.client = JIRA(
-            options={'server': config.JIRA_LINK}, 
+            options={'server': config.JIRA_SERVER}, 
             basic_auth=(config.JIRA_USERNAME, config.JIRA_TOKEN)
         )
 
