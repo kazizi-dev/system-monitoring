@@ -3,8 +3,7 @@ import requests
 
 class ElasticService():
     """
-    class responsible for maintaining connection to Elasticsearch
-    and limiting the user to allowed operations only.
+    class responsible for querying data from Elasticsearch
     """
 
     def __init__(self) -> None:
@@ -38,3 +37,16 @@ class ElasticService():
             return response.json()
         
         return {}
+
+
+    # add documents to elasticsearch index
+    def populate_index_with_data(self, index, data):
+        if self.__does_index_exist(index):
+            for i in range(len(data)):
+                response = requests.post(  
+                    f"{self.client_url}/{index}/_doc", 
+                    data=data[i],
+                    auth=(config.ELASTIC_USER, config.ELASTIC_PWD), 
+                    verify=True, 
+                    headers={'Accept': 'application/json', 'Content-type': 'application/json'}
+                )
