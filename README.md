@@ -1,4 +1,4 @@
-# system-monitoring-design
+# system-monitoring
 System monitoring with the help of Elastic ELK stack, AWS, and Docker.
 
 ### Motivation:
