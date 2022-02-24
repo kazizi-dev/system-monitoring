@@ -1,5 +1,5 @@
 # system-monitoring-design
-System monitoring design with the help of Elastic ELK stack, AWS, and Docker.
+System monitoring with the help of Elastic ELK stack, AWS, and Docker.
 
 ### Motivation:
 Build a system that can answer business and technical related questions for 
