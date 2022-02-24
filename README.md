@@ -13,7 +13,6 @@ engineering and customer support teams in order to better assist clients.
 ### Design 1:
 1. Install a Logstash image in a docker container and run the container using an EC2
 instance on AWS cloud to continously extract newly created Cloudwatch Logs.
-
 2. Transform these logs and load them to Elastic cloud for monitoring purposes.
 
 ![Alt text](images/design1.png?raw=true "Title")
@@ -29,7 +28,6 @@ instance on AWS cloud to continously extract newly created Cloudwatch Logs.
 ### Design 3:
 1 Extra web app metrics by using Elastic Application Performance Monitoring (APM). 
 Use the metrics to monitor user clicks, amd API latencies.
-
 2. Extract Docker metrics by using Elastic Metricbeat.
 
 ![Alt text](images/design3.png?raw=true "Title")
