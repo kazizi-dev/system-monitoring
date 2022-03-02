@@ -13,14 +13,14 @@ Build a system that can answer business and technical related questions for engi
 1. Install a Logstash image in a docker container and run the container using an EC2 instance on AWS cloud to continously extract newly created Cloudwatch Logs.
 2. Transform these logs and load them to Elastic cloud for monitoring purposes.
 
-![Alt text](images/design1.png?raw=true "Title")
+![Alt text](images/design1-overview.png?raw=true "Title")
 
 
 ### Design 2:
 1. Use AWS Lambda to extract data from different sources such as AWS and Balena clouds.
 2. Transform and aggregate data for monitoring and alerting purposes.
 
-![Alt text](images/design2.png?raw=true "Title")
+![Alt text](images/design2-overview.png?raw=true "Title")
 
 
 ### Design 3:
