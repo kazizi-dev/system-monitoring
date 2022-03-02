@@ -1,7 +1,7 @@
 # system-monitoring
 System monitoring with the help of Python, Elastic ELK stack, AWS, and Docker.
 
-![Alt text](images/overview.png?raw=true "Title")
+![Alt text](images/architecture.png?raw=true "Title")
 
 
 ### Motivation:
