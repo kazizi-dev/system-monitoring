@@ -1,6 +1,9 @@
 # system-monitoring-design
 System monitoring with the help of Elastic ELK stack, AWS, and Docker.
 
+![Alt text](images/overview.png?raw=true "Title")
+
+
 ### Motivation:
 Build a system that can answer business and technical related questions for 
 engineering and customer support teams in order to better assist clients.
