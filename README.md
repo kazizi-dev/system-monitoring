@@ -30,7 +30,7 @@ Build a system that can answer business and technical related questions for engi
 1. Extract web app metrics by using Elastic Application Performance Monitoring (APM). Use the metrics to monitor user clicks, API and web page latencies.
 2. Extract Docker metrics by using Elastic Metricbeat. These metrics will tell us information such as uptime, resource usage, and any errors.
 
-![Alt text](images/design3.png?raw=true "Title")
+![Alt text](images/design3-overview.png?raw=true "Title")
 
 ### Lessons Learned :
 1. It is difficult to differentiate between error logs during log processing and filtering. There needs to be a better backend logging system that assigns unique codes to each error. That way it is easier to process and filter logs for alerting purposes.
