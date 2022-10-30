@@ -2,7 +2,7 @@
 System monitoring with the help of Python, Elastic ELK stack, AWS, and Docker.
 
 ### Motivation:
-Build a monitoring and analytical system that can support internal teams with data inquiries. Integrate the system with automated alerts and tickets to reduce team overhead.
+Build a monitoring and analytical system that can support internal teams with data inquiries. Equip the system with automated alerts and tickets to reduce team overhead.
 
 ### Objectives:
 1. Design real-time and scheduled data processign solutions that collect and aggregate data.
