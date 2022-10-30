@@ -32,10 +32,10 @@ Build a monitoring and analytical system that can support internal teams with da
 ### Lessons Learned :
 1. It is difficult to differentiate between error logs during log processing and filtering. There needs to be a better backend logging system that assigns unique codes to each error. That way it is easier to process and filter logs for alerting purposes.
 
-2. It is costly to run EC2 instances for real-time data processing compared with scheduled Lambdas which tend to be a cheaper solution for data that does not require frequent access.
+2. AWS secheduled Lambdas are far cheaper than running AWS EC2 instances for processing data that is not accessed frequently.
 
-3. The quality of data depends mainly on the initial processing and aggregation steps. Enhance these steps further.
+3. The quality of data depends mainly on the initial preprocessing and aggregation steps. Enhance these steps further.
 
 ### Future Improvements:
-1. Enhance log processing through better info/error logs.
-2. Monitor the health of Docker containers and Kubernetes pods.
+1. Enhance error logs by using specific error codes, so warnings and severe bugs can be differentiated.
+2. Monitor the health of Docker containers and Kubernetes pods in near real time.
